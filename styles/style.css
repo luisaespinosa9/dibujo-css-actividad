@@ -1,6 +1,10 @@
 html {
-  background-color: #ffdfee;}
+  background-color: #fff1cb;}
 div {
     background-color: rgb(255, 206, 245);
 }
-
+body {
+  width: 30vw;
+  margin: 60px auto;
+  background-color: #ffd7b3; 
+  color: #000000;
