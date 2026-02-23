@@ -1,10 +1,90 @@
 html {
   background-color: #fff1cb;}
-div {
-    background-color: rgb(255, 206, 245);
-}
+
 body {
   width: 30vw;
   margin: 60px auto;
-  background-color: #ffd7b3; 
+  background-color: #000000; 
   color: #000000;
+}
+h1 {
+  color:rgb(255, 0, 136);
+}
+  div {
+    background-color: rgb(255, 206, 245);
+    width: 30vw; 
+}
+.divRojo {
+  background-color: #ff6868;
+}
+
+#divUnico {
+  background-color: #cbfff5;
+}
+
+#dibujo {
+  width: 30vw;
+  height: 30vh;
+  background-color: #e3ff96;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cara {
+  width: 300px;
+  height: 300px;
+  background-color: #ffd1ef;
+  border-radius: 50%;
+  position: relative;
+}
+
+.ojos {
+  width: 15%;
+  height: 15%;
+  background-color: #000000;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#ojoIzq {
+  top: 23%;
+  left: 25%;
+}
+
+#ojoDer {
+  top: 23%;
+  right: 25%;
+}
+
+.nariz {
+  width: 40px;
+  height: 10px;
+  
+  border: 4px solid #000; 
+  border-bottom: 0; /* Quitamos la parte plana de abajo */
+  
+  border-radius: 60px 60px 0 0;
+  bottom: 45%;
+  right: 43%;
+  position: absolute;
+  
+  background-color: transparent;
+  display: inline-block;
+}
+
+.boca {
+  width: 100px;
+  height: 45px;
+  
+  /* Curvamos solo las esquinas de abajo */
+  border-radius: 0 0 100px 100px;
+  
+  background-color: rgb(222, 156, 156);
+  border: 5px solid black;
+
+  bottom: 15%;
+  right: 33%;
+  position: absolute;
+}
+}
