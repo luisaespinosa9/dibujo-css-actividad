@@ -34,7 +34,7 @@ h1 {
 #cara {
   width: 300px;
   height: 300px;
-  background-color: #ffd1ef;
+  background-color: #e4ca9a;
   border-radius: 50%;
   position: relative;
 }
@@ -148,4 +148,24 @@ h1 {
 .boca:hover {
   transform: rotate(360deg) scale(0.5);
   transition: all 2s ease-in; 
+}
+
+.blush {
+  width: 70px;
+  height: 40px;
+  background: radial-gradient(circle,
+              rgba(255, 120, 150, 0.6) 0%,
+              rgba(255, 120, 150, 0.35) 40%,
+              rgba(255, 120, 150, 0) 75%);
+  border-radius: 50%;
+  position: absolute;
+  top: 170px;
+}
+
+#blush-izq {
+  left: 40px; 
+}
+
+#blush-der {
+  left: calc(100% - 110px); 
 }
